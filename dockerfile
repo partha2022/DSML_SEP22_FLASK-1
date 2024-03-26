@@ -1,8 +1,8 @@
-FROM python:3.9-slim-buster
+FROM python:3.10.4-slim-buster
 
-WORKDIR /Users/suraaj/Desktop/docker
+WORKDIR /C:/Users/PARTHA/Desktop/docker
 
-COPY requirements.txt /Users/suraaj/Desktop/docker/requirements.txt
+COPY requirements.txt /C:/Users/PARTHA/Desktop/docker/requirements.txt
 
 RUN python3 -m pip install --upgrade pip
 RUN pip install -r requirements.txt
